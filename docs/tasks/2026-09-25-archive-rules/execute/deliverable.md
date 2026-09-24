@@ -1,6 +1,6 @@
 # 交付物
 
-- **改动摘要**：新增《Agent 工作档案.md》（v0.1，13 条规则）；仓库 README 加入第四篇条目与用法；建立 `docs/lessons.md` 与本任务示例档案
+- **改动摘要**：新增《Agent 工作档案》（现位于 `agent/archive.md`，v0.1，13 条规则）；仓库 README 加入第四篇条目与用法；建立 `docs/lessons.md` 与本任务示例档案
 - **验证结果**：入口文件命名与协议（plan / deliverable）、守则（PASS / FAIL / HUMAN_DECISION_REQUIRED）术语对齐；全部路径为英文 kebab-case；README 四篇链接完整
 - **不确定点**：任务短名的语言未做强制校验（规则约定英文，未加工具检查）
 - **决策记录**：附件不设独立文件夹；阶段文件夹按需创建，不预建空目录；路径一律英文、内容语言不限

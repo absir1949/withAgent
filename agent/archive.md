@@ -25,7 +25,7 @@ docs/
 
 ## 归档
 
-5. 产物放所属阶段：探索的笔记、对比、一次性代码 → `explore/`；计划 → `define/plan.md`；交付说明 → `execute/deliverable.md`；验收结论 → `review/verdict.md`。
+5. 产物放所属阶段：探索的笔记、对比、一次性代码 → `explore/`；计划 → `define/plan.md`；交付说明 → `execute/deliverable.md`；验收结论 → `review/verdict.md`。入口文件可从 `templates/` 复制。
 6. `define/`、`execute/`、`review/` 各只有一个入口文件；入口之外可自由增加文件（子计划、日志、截图、复检记录），附件放所属阶段文件夹内。
 7. `explore/` 是耗材区：允许乱、可随时清空、其中代码不是正式实现，不得被正式实现引用。
 

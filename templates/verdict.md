@@ -1,0 +1,7 @@
+# 结论
+
+结论：PASS | FAIL | HUMAN_DECISION_REQUIRED
+
+- **证据**：
+- **FAIL 时返回阶段**：EXPLORE / DEFINE / EXECUTE
+- **HUMAN_DECISION_REQUIRED 时需人决定的问题与选项**：

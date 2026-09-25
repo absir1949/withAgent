@@ -24,7 +24,7 @@ docs/         本仓库自己的工作档案（方法论在自己的仓库上运
 
 ## 文档
 
-四份核心文档，建议按顺序阅读：
+五份核心文档，建议按顺序阅读：
 
 | 文档 | 位置 | 回答的问题 |
 |---|---|---|
@@ -32,19 +32,23 @@ docs/         本仓库自己的工作档案（方法论在自己的仓库上运
 | 工作协议 | [human/protocol.md](human/protocol.md) | **人**怎么工作 —— 状态、交接接口、批次与流水线 |
 | 工作守则 | [agent/conduct.md](agent/conduct.md) | **Agent** 怎么工作 —— 四阶段行为规则 |
 | 工作档案 | [agent/archive.md](agent/archive.md) | **工作怎么留痕** —— 任务档案、交接与经验沉淀 |
+| 工作流 | [human/workflow.md](human/workflow.md) | **在 GitHub 上怎么跑** —— Issue / Worktree / PR / Review Agent 的分工与规则 |
 
-四者的关系：
+五者的关系：
 
 - **哲学**给出目标函数和四条核心原则：价值主权、探索购买信息、反馈闭环、认知背压；
 - **协议**把原则落成人的工作制度：探索 → 定义 → 执行 → 验收四种状态，「计划 / 交付物」两个交接接口，批次验收，用验收能力限制并发；
 - **守则**是给 Agent 的行为规范：`EXPLORE → DEFINE → EXECUTE → REVIEW` 四阶段，可直接用于你的 Agent 配置；
-- **档案**是给 Agent 的留痕规则：任务目录、固定入口文件、经验回填，任何新会话只读档案即可接手。
+- **档案**是给 Agent 的留痕规则：任务目录、固定入口文件、经验回填，任何新会话只读档案即可接手；
+- **工作流**是协议在 GitHub 上的实现：Issue 即计划、PR 即交付物、PR 队列即验收队列，反馈顺序固定为 CI → review agent → 人。
 
 ## 如何使用
 
 **人的这一侧**：按[工作协议](human/protocol.md)组织工作节奏——探索和定义 → 批量下发 → 执行期间不看 → 固定窗口集中验收 → 验收只形成判断，失败项进入下一轮。
 
 **Agent 的这一侧**：把[工作守则](agent/conduct.md)和[工作档案](agent/archive.md)一起放进你的 Agent 配置（如 `AGENTS.md`、`CLAUDE.md` 等），并按档案规则建立 `docs/tasks/`——Agent 按四阶段自主工作、自行验证、按标准格式交付，工作过程全部留痕。入口文件直接从 [templates/](templates/) 复制。
+
+**在 GitHub 上**：按[工作流](human/workflow.md)运行——Issue 即计划（issue 模板已内置 plan 字段）、PR 即交付物（PR 模板已内置交付清单）、PR 队列即验收队列；上下文进仓库，会话只是一次性执行器。
 
 ## 版本与迭代
 

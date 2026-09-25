@@ -43,7 +43,7 @@ docs/
 
 ## GitHub 模式
 
-14. 在 GitHub 上运行时：Issue 承载定义与结论，PR 描述承载交付物，merge / close 即结论；任务目录只保留 `explore/` 与大附件，不重复记录定义与交付物。
+14. 在 GitHub 上运行时：Issue 承载 Goal 与结论，PR 描述承载交付物，merge / close 即结论；任务目录只保留 `explore/` 与大附件，不重复记录定义与交付物。
 
 ---
 
